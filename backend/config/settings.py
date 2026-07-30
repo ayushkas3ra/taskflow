@@ -154,3 +154,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
     "https://taskflow-bi9k.onrender.com",
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://taskflow-ten-green.vercel.app",
+]
